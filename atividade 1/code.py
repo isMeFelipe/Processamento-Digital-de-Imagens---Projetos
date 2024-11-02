@@ -114,7 +114,7 @@ def plotar_graficos(vetor_original, vetor_original_equalizado, vetor_especificad
 
     plt.subplot(3, 2, 6)
     plt.bar(range(len(vetor_histograma_especificado)), vetor_histograma_especificado, color='cyan', alpha=0.7)
-    plt.title("Histograma Especificado")
+    plt.title("Histograma Original Especificado")
     plt.xlabel("Índices")
     plt.ylabel("Valores")
 
